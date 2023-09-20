@@ -1,0 +1,7 @@
+\contentsline {section}{\numberline {1}Giới thiệu}{2}{section.1}%
+\contentsline {section}{\numberline {2}Cách sử dụng OpenGL}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Cài đặt}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Tạo cửa sổ}{4}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Theo kiểu cũ - ở LearnOpenGL}{4}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Theo kiểu mới - refacted code}{9}{subsubsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.3}Vẽ một tam giác}{9}{subsection.2.3}%

@@ -1,0 +1,71 @@
+\begin{enumerate}
+    \item 
+%phần 1: Cài trên visual studio code
+\textbf{Cài trên visual studio code}
+
+
+Cài theo \url{https://www.youtube.com/watch?v=Y4F0tI7WlDs} 
+Để có được file glwr3.dll thì ta tải glwr bản binary.
+
+Tham khảo \url{ https://github.com/Coddeus/opengl_cpp_vscode_sample }
+file main.cpp và tasks.json.
+
+\item
+\textbf{Cài trên visual studio 2022}
+\begin{itemize}
+    \item Install Cmake
+    \item Tải GLFW binary
+    \item Lấy repo \url {https://github.com/JoeyDeVries/LearnOpenGL}
+    rồi chạy file CMakeLists.txt trên visual studio 2022, 
+    ấn build solution.
+\end{itemize}
+\end{enumerate}
+
+
+\textbf{Một số thư viện}
+\begin{enumerate}
+    \item \textbf{Thư viện GLFW (Graphics Library Framework))} 
+        \begin{itemize}
+        \item GLFW là một thư viện mã nguồn mở được sử dụng để tạo cửa sổ
+        và quản lý sự kiện đồ
+        họa trong ứng dụng OpenGL.
+        \item
+        Nó cung cấp các chức năng cơ bản như tạo cửa sổ,
+        xử lý sự kiện bàn phím và chuột, và quản lý vòng lặp chính
+        cho ứng dụng OpenGL.
+        \item
+        GLFW là một thư viện nhẹ và đơn giản, thích hợp cho các dự án OpenGL 
+        cơ bản và các ứng dụng đơn giản.
+        \end{itemize}
+
+     \item \textbf{Thư viện GLAD (Multi-Language GL/GLES/EGL/GLX/WGL
+      Loader-Generator based on the official specs.)}
+     
+        OpenGL là một tiêu chuẩn hoặc một đặc tả đồ họa, không phải là một 
+        phần mềm hoàn chỉnh được cài đặt sẵn trên máy tính. Thay vào đó,
+        nó chỉ định cách các chức năng đồ họa cơ bản
+        hoạt động và tương tác với card đồ họa. Để thực hiện việc vẽ đồ họa bằng
+        OpenGL, bạn cần một trình điều khiển đồ họa (driver) cụ thể cho card đồ 
+        họa bạn đang sử dụng.
+
+        Mỗi nhà sản xuất card đồ họa có thể cung cấp một phiên bản OpenGL driver
+        khác nhau dựa trên phiên bản card đồ họa của họ và các tính năng đặc biệt của nó. Điều này dẫn 
+        đến việc có nhiều phiên bản khác nhau của driver OpenGL.
+
+        Vấn đề là vì có nhiều phiên bản driver khác nhau, nên vị trí cụ thể
+        của các hàm trong driver OpenGL không thể biết trước tại thời điểm
+        biên dịch mã nguồn của bạn. Do đó, bạn cần phải truy vấn vị trí của 
+        các hàm OpenGL này trong driver 
+        tại thời điểm chạy (run-time).
+
+        Điều này thực hiện thông qua thư viện như GLAD hoặc GLEW,
+        làm cho việc truy cập các hàm OpenGL trở nên dễ dàng hơn.
+        Bạn sẽ sử dụng các hàm như gladLoadGLLoader() để nạp các con trỏ
+        hàm OpenGL và sau đó sử dụng các con trỏ này để gọi các chức năng
+            OpenGL cụ thể trong mã của bạn.
+\end{enumerate}
+
+\textbf{Một số vấn đề}
+\begin{enumerate}
+    \item Làm sao để chạy nhiều file cpp trong vscode 
+\end{enumerate}

@@ -1,0 +1,2 @@
+D:/do it 3/OpenGL_Sample/build/CMakeFiles/edit_cache.dir
+D:/do it 3/OpenGL_Sample/build/CMakeFiles/rebuild_cache.dir

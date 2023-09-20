@@ -1,0 +1,50 @@
+%tạo 1 article
+\documentclass[12pt]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{graphicx}
+\usepackage{float}
+%lấy link
+\usepackage{hyperref}
+\usepackage{xcolor}
+%tạo màu cho code
+
+%lstlisting%nền code màu đen
+\definecolor{mygray}{RGB}{50,50,50}
+\definecolor{cyan}{RGB}{0, 255, 255}
+
+\usepackage{listings}
+\lstset{
+    backgroundcolor = \color{mygray},
+    basicstyle=\color{cyan},     % Màu văn bản trắng
+    %đặt màu theo rgb
+    keywordstyle=\color{red},    % Màu từ khóa đỏ
+    commentstyle=\color{green},   % Màu chú thích (nếu bạn muốn đặt màu)
+    stringstyle=\color{red},      % Màu chuỗi (nếu bạn muốn đặt màu)
+    breakatwhitespace=false,      % Chia dòng chỉ khi khoảng trắng
+    breaklines=true,              % Chia dòng tự động
+    % Các cài đặt khác của listings theo ý muốn của bạn
+    %chữ aria
+}
+\usepackage{caption}
+
+\title{Thư viện openGL}
+\author{anthule}
+\date{\today}
+
+\begin{document}
+%tạo mục lục
+
+\tableofcontents
+\maketitle
+\section{Giới thiệu}
+\input{openGL_intro.tex}
+\section{Cách sử dụng OpenGL}
+\subsection{Cài đặt}
+\input{set_up_glfw.tex}
+\subsection{Tạo cửa sổ}
+\input{create_an_openGL_window.tex}
+\subsection{Vẽ một tam giác}
+
+\end{document}
