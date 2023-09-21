@@ -9,5 +9,6 @@ Thông qua thư viện như openGL, ta có thể xử lí ảnh trên GPU.
 ![ 
 ](<Draw a Triangle (p1).jpg>)
 ![
-    
-](<draw a triangle (part2) - Vertex Buffer Object.jpg>)
+![draw a triangle (part2) - Vertex Buffer Object](https://github.com/anthule123/try_openGL/assets/29473579/79336270-25c0-4e10-b2dd-647ae323d8e9)
+ 
+
