@@ -1,7 +1,7 @@
 {
 	"version": "2.0.0",
 	"tasks": [
-        {   
+        {
             "type": "cppbuild",
             "label": "C/C++: g++.exe build active file",
             "command": "D:/o D/App/GCC/gcc/bin/g++.exe",
@@ -10,15 +10,21 @@
                 "-std=c++17",
                 "-I${workspaceFolder}/include",
                 "-L${workspaceFolder}/lib",
-                "${workspaceFolder}/src/main.cpp",
+              //  "${workspaceFolder}/src/main.cpp",
               //  "${workspaceFolder}/src/hello.cpp",
+
+              //5. Texture
+               //   "${workspaceFolder}/src/learn/   started/texture/textures.cpp",
+                    // "${workspaceFolder}/src/learn/started/texture/simple_texture.cpp",
+                    // "${workspaceFolder}/src/learn/started/texture/texture2.cpp",
+                    "${workspaceFolder}/src/learn/started/texture/texture3.cpp",
 
                 "${workspaceFolder}/src/glad.c",
 
                 "-lglfw3dll",
                 "-o",
                 "${workspaceFolder}/cutable.exe",
-                
+
             ],
             "options": {
                 "cwd": "${workspaceFolder}"

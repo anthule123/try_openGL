@@ -1,11 +1,11 @@
 //#include "targetver.h"
 
 #include<iostream>
-
+using namespace std;
 #include<glad/glad.h>
 #include<GLFW/glfw3.h>
 
-void framebuffer_size_callback(GLFWwindow* 
+void framebuffer_size_callback(GLFWwindow*
 window, int width, int height);
 void processInput(GLFWwindow *window);
 
@@ -24,7 +24,7 @@ void processInput(GLFWwindow *window)
 // ---------------------------------------------------------------------------------------------
 void framebuffer_size_callback(GLFWwindow* window, int width, int height)
 {
-    // make sure the viewport matches the new window dimensions; note that width and 
+    // make sure the viewport matches the new window dimensions; note that width and
     // height will be significantly larger than specified on retina displays.
     glViewport(0, 0, width, height);
 }
@@ -46,7 +46,7 @@ GLFWwindow* init_glfw()
     // glfw window creation
     // --------------------
     GLFWwindow* window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "LearnOpenGL", NULL, NULL);
-   
+
     if (window == NULL)
     {
         std::cout << "Failed to create GLFW window" << std::endl;
@@ -62,6 +62,6 @@ GLFWwindow* init_glfw()
     {
         std::cout << "Failed to initialize GLAD" << std::endl;
         return NULL;
-    }    
+    }
     return window;
 }
