@@ -57,7 +57,9 @@ glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT);
     width = 800;
     height = 600;
     nrChannels = 3;
-    unsigned char *data = stbi_load("src/learn/started/texture/container.jpg", &width, &height, &nrChannels, 0);
+    //flip
+    stbi_set_flip_vertically_on_load(true);
+    unsigned char *data = stbi_load("src/learn/started/texture/frog.jpg", &width, &height, &nrChannels, 0);
      if (data)
     {
         glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, width, height, 0, GL_RGB, GL_UNSIGNED_BYTE, data);

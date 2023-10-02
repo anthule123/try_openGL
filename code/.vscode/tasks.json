@@ -17,7 +17,15 @@
                //   "${workspaceFolder}/src/learn/   started/texture/textures.cpp",
                     // "${workspaceFolder}/src/learn/started/texture/simple_texture.cpp",
                     // "${workspaceFolder}/src/learn/started/texture/texture2.cpp",
-                    "${workspaceFolder}/src/learn/started/texture/texture3.cpp",
+                    // "${workspaceFolder}/src/learn/started/texture/texture3.cpp",
+                    // "${workspaceFolder}/src/learn/started/texture/texture4.cpp",
+                   // "${workspaceFolder}/src/learn/started/texture/texture5.cpp",
+                    // "${workspaceFolder}/src/learn/started/texture/texture7.cpp",
+                    //"${workspaceFolder}/src/learn/started/texture/texture8.cpp",
+                   // "${workspaceFolder}/src/learn/started/texture/texture9.cpp",
+                    "${workspaceFolder}/src/learn/started/texture/texture10.cpp",
+
+                    // "${workspaceFolder}/src/learn/started/texture/sample.cpp",
 
                 "${workspaceFolder}/src/glad.c",
 
